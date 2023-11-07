@@ -84,7 +84,6 @@
     border-radius: 50%;
 }
 
-
 /* Collapsable List */
 .btn-link {
     font-size: 30px;
@@ -95,7 +94,7 @@
 
 .card-title {
     font-size: 25px;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
 }
 
