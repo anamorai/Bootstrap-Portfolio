@@ -78,7 +78,7 @@
   }
   
 #accordion {
-    width: 80%;
+    width: 77%;
     margin:auto;
     text-align: center;
     border-radius: 50%;
@@ -101,6 +101,7 @@
 .card-body {
 font-size: 20px;
 text-align: center;
+font-weight: 20px;
 }
 
 #aboutme {
@@ -112,19 +113,37 @@ margin-top: 100px;
  #aboutme img {
 width: 30%;
 margin: auto;
-height: 30%;
+height: 70%;
+border-radius: 45%;
+margin-top: 15px;
  }
   
-  /* Footer */
-.emailContain {
-    background: url(../images/emailBG.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+ /* Footer */
+
+  .contactme {
+    font-size:20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
   }
-  
-  /* Footer  */
+.contactme h3 {
+    font-weight:bold;
+}
+.contactme p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nav-link:hover {
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: lightgray;
+    border-radius: 10%;
+  }
+
+  .btn:hover {
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: lightgray;
+    border-radius: 10%;
+  }
