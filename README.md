@@ -1,122 +1,83 @@
-# Bootstrap-Portfolio
-A portfolio of my recent work including a profile and contact information - using bootstrap 
+# Bootcamp Portfolio
 
-# Unit 3 Challenge: Code Bootstrap Portfolio
+I have been tasked with building a portfolio of my recent work including a profile and contact information - using bootstrap. This portfolio will be the perfect way to showcase my ability in a fun and interactive way.  
 
-## Overview
-
-In this assignment, you'll be building your portfolio layout using the Bootstrap CSS Framework.
-
-## Instructions
-
-4. Using Bootstrap, recreate your portfolio site with the following items:
-
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
-    
-    - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
-
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
-
-    - A hero section
-
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
-
-    - A work section
-
-      - A section displaying your work in grid. 
-
-        - If you need to use placeholder image use: https://placehold.co/ 
-
-      - Use bootstrap cards for each project.
-
-        - The description should give a brief overview of the work.
-
-      - Each project will eventually link to your class project work!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
+To complete this I will
+*  Create a website that will include the following bootstrap components:
+    - My name, featured in the logo in the top left of the page.
+    - A Navigation bar that has links that are applicable to my portfolio and in working order.
+    - A jumbotron which features a picture and an important slogan and quote. 
+    - A work section which displays my work in grid. For the purpose of this project I will be using websites I like as placeholders and will not be taking actual credit for these websites.
+    - Bootstrap cards for each project with a brief description and a working link to each website.
+    - A skills section that lists the skills I expect to learn from the bootcamp, and some I already possess, within a drop down menu that explains a little about each one.
     - An about / contact section.
+    - A footer section with interactive buttons.
+    - All hyperlinks have a hover effect.
+    - All buttons should display a box shadow upon hover.
 
-      - An "About Me" section in the same row.
-    
-    - A footer section.
+## Installation
 
-      - All hyperlinks should have a hover effect.
+To open the project please follow this link: https://anamorai.github.io/portfolio-anastasiam/
 
-      - All buttons should display a box shadow upon hover.
+## Usage 
 
-5. Your Bootstrap solution should minimize use of media queries.
+Once you open the URL, you will see the following:
 
-6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
-
-## Helpful Resources
-
-- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-
-- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
-
-- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
-
-- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-
-- [Github Pages Guide](https://pages.github.com/)
-
-  - Choose "Project Site" and "Start from Scratch" to get correct instructions.
+![This is the first thing you will see after opening the website](images/web1.png)
 
 
-## Grading Requirements
+By clicking on the buttons in the top right, you can navigate to the sections further down within the page. 
+It will look like this: 
 
-This homework is graded based on the following criteria: 
+![If you scroll down, it will look like this](images/web2.png)
 
-### Technical Acceptance Criteria: 40%
+The website is also mobile-friendly and will look like this on a phone:
 
-* Satisfies all of the above acceptance criteria.
+![This is the first thing you will see after opening the website](images/web3.png)
 
-### Deployment: 32%
 
-* Application deployed at live URL.
+## Badges
 
-* Application loads with no errors.
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/portfolio-anastasiam/github-pages)
 
-* Application GitHub URL submitted.
 
-* GitHub repository contains application code.
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/portfolio-anastasiam)
 
-### Application Quality: 15%
 
-* Application resembles the functionality of their previous portfolio.
+## Features
 
-### Repository Quality: 12%
+- Portfolio of my work with active links
+- Responsive layout that adjusts to screensize
+- Downloadable CV
+- Live contact buttons
+- Alt text for accessibility
 
-* Repository has a unique name.
+## Credits
 
-* Repository follows best practices for file structure and naming conventions.
+I would like to refrence EdX bootcamp and the tutors associated for the support I have recieved for this project. 
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+I would also like to give reference my previous portfolio project that I used as inspiration for this work. 
 
-* Repository contains multiple descriptive commit messages.
+## License
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+MIT License
 
-## Review
+Copyright (c) [2023] [Anastasia Moraites]
 
-You are required to submit ALL THREE of the following for review:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* The URL of the deployed application.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-* The URL of your previously deployed portfolio.
-
----
-
-## Copyright
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
