@@ -53,8 +53,11 @@ The website is also mobile-friendly and will look like this on a phone:
 ## Credits
 
 I would like to refrence EdX bootcamp and the tutors associated for the support I have recieved for this project. 
+I also referenced previous work done in Bootcamp from week 3 to assist with the code for Jumbotron and cards using bootstrap. I would like to give credit to these projects
 
 I would also like to give reference my previous portfolio project that I used as inspiration for this work. 
+
+I would also like to give credit to W3schools for the support that they provided with customisng bootstrap.
 
 ## License
 
