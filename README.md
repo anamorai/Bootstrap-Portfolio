@@ -38,11 +38,9 @@ The website is also mobile-friendly and will look like this on a phone:
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/portfolio-anastasiam/github-pages)
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Bootstrap-Portfolio/github-pages)
 
-
-![GitHub top language](https://img.shields.io/github/languages/top/anamorai/portfolio-anastasiam)
-
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Bootstrap-Portfolio)
 
 ## Features
 
