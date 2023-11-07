@@ -1,250 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/845414494a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Bootstrap Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/845414494a.js" crossorigin="anonymous"></script>
 </head>
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Anastasia.M</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand">Anastasia.M</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" id="navigation" href="#projects">Recent Projects<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="navigation1" href="#accordion">My Skills</a>
+      </li>
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownmenu" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          More
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#projects">Recent Projects<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#accordion">My Skills</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                More
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#aboutme">About Me</a>
-                <a class="dropdown-item" href="#contactme">Contact me</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1 class="display-4 jumboCopy"> {Get Creative with Code} </h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <a class="btn btn-outline-dark btn-lg" href="#aboutme" role="button">Learn more about me</a>
-      </div>
-    
-      <!-- Cards -->
-          <!-- Cards -->
-    <div class="container-fluid content" id="projects">
-        <h2 class="sectionHeading">My recent Projects</h2>
-        <div class="row showsNear">
-  
-          <!-- Card 1 - Earthbound-->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/organics.png" class="card-img-top" alt="An image showcasing some of earthbounds products">
-              <div class="card-body">
-                <h2 class="card-title">Earthbound</h2>
-                <p class="card-text">A website I recently developed for an organic skin care company</p>
-                <a href="https://www.earthbound.co.uk/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Card 2 -->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/Wild3.jpg" class="card-img-top" alt="An image displaying three of Wilds deodorants, in purple, blue and orange">
-              <div class="card-body">
-                <h2 class="card-title">Wild</h2>
-                <p class="card-text">I worked with a great team to put together this stunning website</p>
-                <a href="https://www.wearewild.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Card 3 -->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/treatbox.png" class="card-img-top" alt="A screenshot from the treatbox website homepage">
-              <div class="card-body">
-                <h2 class="card-title">TreatBox</h2>
-                <p class="card-text">Another website I worked on that delivers customisable end products for the user</p>
-                <a href="https://treatboxuk.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
-              </div>
-            </div>
-          </div>
-        
-             <!-- Card 4 -->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/buzzy.png" class="card-img-top" alt="A screenshot from the buzzybee website homepage">
-              <div class="card-body">
-                <h2 class="card-title">Buzy</h2>
-                <p class="card-text">This was a fun project with a small team</p>
-                <a href="https://buzzybee.co.uk/" target="_blank"  class="btn btn-outline-dark btn-lg">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-               <!-- Card 5 -->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/treehouse.png" class="card-img-top" alt="A screenshot from the treehouse website homepage">
-              <div class="card-body">
-                <h2 class="card-title">Treehouse</h2>
-                <p class="card-text">This was another fun project I worked on recently</p>
-                <a href="https://thetreehousebakery.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look</a>
-              </div>
-            </div>
-          </div>
-
-               <!-- Card 6 -->
-          <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
-            <div class="card">
-              <img src="images/kids.png" class="card-img-top" alt="A screenshot from the Classroom Secrets website homepag">
-              <div class="card-body">
-                <h2 class="card-title">Classroom Secrets</h2>
-                <p class="card-text">I had fun revamping this website for the client</p>
-                <a href="https://kids.classroomsecrets.co.uk/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
-              </div>
-            </div>
-          </div>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button"><a class="nav-link" href="#aboutme">About Me</a></button>
+          <button class="dropdown-item" type="button"><a class="nav-link" href="#contactme">Contact Me</a></button>
         </div>
       </div>
-    
-      <!-- Skills Collapsable List -->
+    </ul>
+  </div>
+</nav>
 
-      <!-- Skill 1 -->
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h3 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                HTML/CSS skills
-              </button>
-            </h3>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              HTML is the most used markup language across the web. CSS on the other hand, is used to style the website. I am profficient and confident in both languages</div>
-          </div>
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <h1 class="display-4"> {Get Creative with Code} </h1><br>
+  <p class="lead">“Coding is todays language of creativity. All our children deserve a chance to become creators instead
+    consumers of computer science.” <br> — Maria Klawe
+  </p>
+  <br>
+  <a class="btn btn-outline-dark btn-lg" href="#aboutme" role="button">Learn more about me</a>
+</div>
 
-        <!-- Skill 2 -->
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h3 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Analytical skills
-              </button>
-            </h3>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              As a web developer, I understand the need to have keen analytical skills to create a variety of successful websites. I ensure the coding is correct and the website is functional.
-            </div>
-          </div>
-        </div>
+<!-- Cards -->
+<div class="container-fluid content" id="projects">
+  <h2 class="sectionHeading">My recent Projects</h2>
+  <div class="row showsNear">
 
-        <!-- Skill 3 -->
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h3 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Problem-Solving and Debugging Skills
-              </button>
-            </h3>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
-              I have strong problem-solving and debugging skills. These are paramount in identifying and resolving issues within web applications. The ability to efficiently troubleshoot and address technical challenges ensures the smooth functioning of websites and enhances the overall user experience.
-            </div>
-          </div>
-        </div>
-        
-        <!-- Skill 4 -->
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h3 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Effective Communication and Collaboration
-              </button>
-            </h3>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-            <div class="card-body">
-              Strong communication and collaboration skills are essential for effective teamwork and project management. I possess the ability to communicate well with a variety of people, relaying complex technical concepts clearly and work collaboratively with cross-functional teams. This is an essential skill as it leads to the successful completion of web development projects.
-            </div>
-          </div>
-        </div>
-
-          <!-- Skill 5 -->
-        <div class="card">
-          <div class="card-header" id="headingFive">
-            <h3 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Responsive Web-Development
-              </button>
-            </h3>
-          </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-            <div class="card-body">
-              I am eperienced in mobile-first and responsive design techniques to ensure web applications function flawlessly on a variety of devices and screen sizes. I am also proficient in CSS frameworks like Bootstrap to create adaptive layouts that prioritize mobile users' experience.
-            </div>
-          </div>
-        </div>
-        
-         <!-- Skill 6 -->
-        <div class="card">
-          <div class="card-header" id="headingSix">
-            <h3 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                Understanding of Version Control Systems
-              </button>
-            </h3>
-          </div>
-          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-            <div class="card-body">
-               I have proficiency in version control systems, such as Git. This is crucial for tracking changes and collaborating effectively with team members.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- About Me--> 
-      <div class="card mb-2" id="aboutme">
-        <img src="images/profile.png" class="card-img-top mb-3" alt="Picture of Anastasia Moraites">
+    <!-- Card 1 - Earthbound-->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/organics.png" class="card-img-top" alt="An image showcasing some of earthbounds products">
         <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">Hi! I am Anastasia. Welcome to my portfolio. Here is a little bit about me - I like all things creative and adventurous. If I'm not in my art studio, I am probably outside rock climbing. I have background working with people with various disabilities, so creating accessible, user friendly code for ALL users is my passion. I look forward to working with you!</p>
-          <a a href = "./images/Anastasia CV- updated.pdf" download = "Anastasia CV" class="btn btn-outline-dark btn-lg">Download my CV!</a
+          <h2 class="card-title">Earthbound</h2>
+          <p class="card-text">A website I recently developed for an organic skin care company</p>
+          <a href="https://www.earthbound.co.uk/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
         </div>
       </div>
+    </div>
 
-      <footer class="contactme" id="contactme">
-        <h3>Contact Me</h3>
-        <p>Please feel free to reach out to me via mail or on LinkedIn and I would be more than happy to answer any questions!</p>
-        <br>
-        <aside><a href="mailto:anastasiamoraites@gmail.com" target="_blank"><i class="fa-regular fa-at fa-beat fa-xl" style="color: #b3b3b3;"></i></a> 
-        or <a href="https://www.linkedin.com/in/anastasia-moraites-05a43ba9/" target="_blank"> <i class="fa-brands fa-linkedin fa-beat-fade fa-2xl" style="color: #b0b0b0;"></i></a></aside>
-      </footer>
+    <!-- Card 2 -->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/Wild3.jpg" class="card-img-top"
+          alt="An image displaying three of Wilds deodorants, in purple, blue and orange">
+        <div class="card-body">
+          <h2 class="card-title">Wild</h2>
+          <p class="card-text">I worked with a great team to put together this stunning website</p>
+          <a href="https://www.wearewild.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
+        </div>
+      </div>
+    </div>
 
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-</body>
+    <!-- Card 3 -->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/treatbox.png" class="card-img-top" alt="A screenshot from the treatbox website homepage">
+        <div class="card-body">
+          <h2 class="card-title">TreatBox</h2>
+          <p class="card-text">Another website I worked on that delivers customisable end products for the user</p>
+          <a href="https://treatboxuk.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look!</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/buzzy.png" class="card-img-top" alt="A screenshot from the buzzybee website homepage">
+        <div class="card-body">
+          <h2 class="card-title">Buzy</h2>
+          <p class="card-text">This was a fun project with a small team</p>
+          <a href="https://buzzybee.co.uk/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/treehouse.png" class="card-img-top" alt="A screenshot from the treehouse website homepage">
+        <div class="card-body">
+          <h2 class="card-title">Treehouse</h2>
+          <p class="card-text">This was another fun project I worked on recently</p>
+          <a href="https://thetreehousebakery.com/" target="_blank" class="btn btn-outline-dark btn-lg">Take a look</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="cardContainer col-lg-4 col-md-5 col-sm-12">
+      <div class="card">
+        <img src="images/kids.png" class="card-img-top" alt="A screenshot from the Classroom Secrets website homepag">
+        <div class="card-body">
+          <h2 class="card-title">Classroom Secrets</h2>
+          <p class="card-text">I had fun revamping this website for the client</p>
+          <a href="https://kids.classroomsecrets.co.uk/" target="_blank" class="btn btn-outline-dark btn-lg">Take a
+            look!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Collapsable List -->
+
+<!-- Skill 1 -->
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h3 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+          aria-controls="collapseOne">
+          HTML/CSS skills
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        HTML is the most used markup language across the web. CSS on the other hand, is used to style the website. I am
+        profficient and confident in both languages</div>
+    </div>
+
+    <!-- Skill 2 -->
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h3 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+          aria-controls="collapseTwo">
+          Analytical skills
+        </button>
+      </h3>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        As a web developer, I understand the need to have keen analytical skills to create a variety of successful
+        websites. I ensure the coding is correct and the website is functional.
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 3 -->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h3 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+          aria-controls="collapseThree">
+          Problem-Solving and Debugging Skills
+        </button>
+      </h3>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        I have strong problem-solving and debugging skills. These are paramount in identifying and resolving issues
+        within web applications. The ability to efficiently troubleshoot and address technical challenges ensures the
+        smooth functioning of websites and enhances the overall user experience.
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 4 -->
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h3 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+          aria-controls="collapseFour">
+          Effective Communication and Collaboration
+        </button>
+      </h3>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        Strong communication and collaboration skills are essential for effective teamwork and project management. I
+        possess the ability to communicate well with a variety of people, relaying complex technical concepts clearly
+        and work collaboratively with cross-functional teams. This is an essential skill as it leads to the successful
+        completion of web development projects.
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 5 -->
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h3 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+          aria-controls="collapseFive">
+          Responsive Web-Development
+        </button>
+      </h3>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        I am eperienced in mobile-first and responsive design techniques to ensure web applications function flawlessly
+        on a variety of devices and screen sizes. I am also proficient in CSS frameworks like Bootstrap to create
+        adaptive layouts that prioritize mobile users' experience.
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill 6 -->
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h3 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+          aria-controls="collapseSix">
+          Understanding of Version Control Systems
+        </button>
+      </h3>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        I have proficiency in version control systems, such as Git. This is crucial for tracking changes and
+        collaborating effectively with team members.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Me-->
+<div class="card mb-2" id="aboutme">
+  <img src="images/profile.png" class="card-img-top mb-3" alt="Picture of Anastasia Moraites">
+  <div class="card-body">
+    <h5 class="card-title">About Me</h5>
+    <p class="card-text">Hi! I am Anastasia. Welcome to my portfolio. Here is a little bit about me - I like all things
+      creative and adventurous. If I'm not in my art studio, I am probably outside rock climbing. I have background
+      working with people with various disabilities, so creating accessible, user friendly code for ALL users is my
+      passion. I look forward to working with you!</p>
+    <a a href="./images/Anastasia CV- updated.pdf" download="Anastasia CV" class="btn btn-outline-dark btn-lg">Download
+      my CV!</a </div>
+  </div>
+
+  <footer class="contactme" id="contactme">
+    <h3>Contact Me</h3>
+    <p>Please feel free to reach out to me via mail or on LinkedIn and I would be more than happy to answer any
+      questions!</p>
+    <br>
+    <aside><a href="mailto:anastasiamoraites@gmail.com" target="_blank"><i class="fa-regular fa-at fa-beat fa-xl"
+          style="color: #b3b3b3;"></i></a>
+      or <a href="https://www.linkedin.com/in/anastasia-moraites-05a43ba9/" target="_blank"> <i
+          class="fa-brands fa-linkedin fa-beat-fade fa-2xl" style="color: #b0b0b0;"></i></a></aside>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  </body>
+
 </html>

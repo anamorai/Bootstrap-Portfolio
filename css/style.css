@@ -1,4 +1,4 @@
-/* General */
+/* Nav */
 .customNav {
     position: fixed;
     width: 100%;
@@ -6,80 +6,126 @@
     background-color: transparent;
     background-size: cover;
     z-index: 10;
-  }
-  .navbar-nav {
+}
+
+.navbar-nav {
     margin-left: auto;
     margin-right: 0;
-  }
-  .navbar-brand {
+}
+
+.navbar-brand {
     font-weight: bolder;
     color: black;
     font-size: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .nav-item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-item {
     margin: 0px 15px;
-  }
+}
 
-/* Navigation dropdown menu */
-.dropdown-menu {
+.btn-group {
     background-color: transparent;
-    background-size: cover;
-  }
-  .dropdown-item:focus, .dropdown-item:hover {
-      color: white;
-      text-decoration: none;
-      background: grey;
-  }
+    background-size: contain;
+    color: rgb(5, 4, 4);
+    text-decoration: none;
+    background: grey;
+    background-color: transparent;
+    background-size: contain;
+}
 
-  /* Jumbotron  */
+#navigation:hover {
+    box-shadow: 5px 28px 28px 5px rgba(11, 8, 8, 0.24), 0 17px 50px 0 rgba(8, 8, 8, 0.24);
+    border-radius: 15%;
+}
+
+#navigation1:hover {
+    box-shadow: 5px 28px 28px 5px rgba(11, 8, 8, 0.24), 0 17px 50px 0 rgba(8, 8, 8, 0.24);
+    border-radius: 15%;
+}
+
+#navigation1 {
+    color: black;
+}
+
+.btn-outline-dark:hover {
+    box-shadow: 5px 28px 28px 5px rgba(128, 125, 125, 0.24), 0 17px 50px 0 rgba(128, 125, 125, 0.24);
+    border-radius: 15%;
+}
+
+.btn-link:hover {
+    box-shadow: 5px 28px 28px 5px rgba(128, 125, 125, 0.24), 0 17px 50px 0 rgba(128, 125, 125, 0.24);
+}
+
+#dropdownmenu {
+    background-color: #f8f9fa;
+    color: black;
+    border: #f8f9fa 0px;
+    box-shadow: none;
+}
+
+#dropdownmenu:hover {
+    box-shadow: 5px 28px 28px 5px rgba(128, 125, 125, 0.24), 0 17px 50px 0 rgba(128, 125, 125, 0.24);
+    border-radius: 15%;
+}
+
+/* Jumbotron  */
 .jumbotron {
     background-image: url(../images/back.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: repeat;
     height: 600px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-  }
-  
-  /* Jumbotron copy */
-  .jumboCopy {
+}
+
+.lead {
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
     width: 70%;
     min-width: 500px;
     max-width: 700px;
     color: solid black;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
-  }
-  
-  /* Cards */
-  .sectionHeading {
+}
+
+/* Cards */
+.sectionHeading {
     text-align: center;
-  }
-  .card-img-top {
+}
+
+.card-img-top {
     height: 287px;
     width: auto;
-  }
+}
 
-  .card {
+.card {
     margin: 10px;
-  }
-  .showsNear  {
-    padding: 0px 30px 30px 30px;
-  }
-  .cardContainer {
-    text-align: center;
-  }
+}
 
-  .row {
+.showsNear {
+    padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+    text-align: center;
+}
+
+.row {
     justify-content: center;
-  }
-  
+}
+
 #accordion {
     width: 77%;
-    margin:auto;
+    margin: auto;
     text-align: center;
     border-radius: 50%;
 }
@@ -90,7 +136,7 @@
     color: black;
 }
 
-  /* About me */
+/* About me */
 
 .card-title {
     font-size: 25px;
@@ -99,51 +145,41 @@
 }
 
 .card-body {
-font-size: 20px;
-text-align: center;
-font-weight: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 20px;
 }
 
 #aboutme {
-margin-left: 200px;
-margin-right: 200px;
-margin-top: 100px;
- }
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 5%;
+}
 
- #aboutme img {
-width: 30%;
-margin: auto;
-height: 70%;
-border-radius: 45%;
-margin-top: 15px;
- }
-  
- /* Footer */
+#aboutme img {
+    width: 30%;
+    margin: auto;
+    height: 70%;
+    border-radius: 45%;
+    margin-top: 15px;
+}
 
-  .contactme {
-    font-size:20px;
+/* Footer */
+
+.contactme {
+    font-size: 20px;
     text-align: center;
     margin: auto;
-    margin-bottom: 100px;
-    margin-top: 50px;
-  }
-.contactme h3 {
-    font-weight:bold;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
+
+.contactme h3 {
+    font-weight: bold;
+}
+
 .contactme p {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
 }
-
-.nav-link:hover {
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: lightgray;
-    border-radius: 10%;
-  }
-
-  .btn:hover {
-    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: lightgray;
-    border-radius: 10%;
-  }
