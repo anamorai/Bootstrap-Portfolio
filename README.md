@@ -17,7 +17,7 @@ To complete this I will
 
 ## Installation
 
-To open the project please follow this link: https://anamorai.github.io/portfolio-anastasiam/
+To open the project please follow this link: https://anamorai.github.io/Bootstrap-Portfolio/
 
 ## Usage 
 
